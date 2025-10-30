@@ -8,7 +8,7 @@ COMO INICIAR/TERMINAR:
 -> Para encerrar o jogo, selecione a opção 0 - Sair no menu principal ou feche o terminal.
 
 OPÇÕES OFERECIDAS:
-Ao abrir o jogo, é apresentado um menu inicial com quatro opções para se selecionar:
+Ao abrir o jogo, é apresentado um menu inicial com quatro opções (de 0 à 3) para se selecionar:
 1 - Posicionar embarcações: 
 - O jogador preenche as posições cartesianas das suas embarcações (coordenadas de linha e coluna entre 0 e 9).
 - São cinco embarcações tanto para o jogador quanto para o computador.
