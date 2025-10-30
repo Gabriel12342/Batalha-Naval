@@ -1,4 +1,5 @@
 BATALHA NAVAL
+Autor: Gabriel Alves Faria
 
 COMO INICIAR/TERMINAR:
 - Para iniciar o jogo, é preciso ter Python instalado na sua máquina para rodar no terminal.
