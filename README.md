@@ -44,6 +44,10 @@ Regras dos turnos:
 - Se escolher uma posição já atacada, perde a vez.
 - O jogo termina quando todas as embarcações de um dos lados são destruídas.
 
+Requisitos
+* Python 3.8+
+* Nenhuma biblioteca externa é necessária (usa apenas random).
+
 CONCLUSÃO:
 O sistema Batalha Naval em Python cumpre o objetivo principal de permitir que o jogador enfrente o computador em um jogo de batalha naval no terminal. Ele apresenta uma interface simples, com menus claros e retorno visual imediato sobre os acertos e erros de cada jogada, tornando a experiência intuitiva para iniciantes.
 
