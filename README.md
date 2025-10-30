@@ -38,13 +38,13 @@ Simbolos:
 * "X": embarcação atingida;
 * "o": tiro na água (erro).
 
-Regras dos turnos:
+REGRAS DOS TURNOS:
 - Se o jogador acertar, joga novamente.
 - Se errar, passa a vez para o computador.
 - Se escolher uma posição já atacada, perde a vez.
 - O jogo termina quando todas as embarcações de um dos lados são destruídas.
 
-Requisitos
+REQUISITOS:
 * Python 3.8+
 * Nenhuma biblioteca externa é necessária (usa apenas random).
 
