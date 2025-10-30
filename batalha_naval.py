@@ -117,7 +117,7 @@ while True:
                         try:
                             linha = int(input(f"Escreva a posição da linha (0-9) do barco {i+1}: "))
                             coluna = int(input(f"Escreva a posição da coluna (0-9) do barco {i+1}: "))
-                            
+
                             if not (0 <= linha < 10 and 0 <= coluna < 10):
                                 print("Posição inválida! Escolha valores entre 0 e 9.\n")
                                 print("=====" * 10)
@@ -168,7 +168,7 @@ while True:
 
                         acerto_jogador = ataque_jogador(att_linha, att_coluna, campo_computador)
 
-                        if not acerto_jogador:  # se errar, passa pro computador
+                        if not acerto_jogador:  
                             turno_jogador = False
 
                     else:
@@ -187,16 +187,15 @@ while True:
                     if jogador_venceu:
                         print("=====" * 10)
                         print("\nParabens! Você venceu!")
-                        imprimir_tabuleiro(campo_computador)
                         print("=====" * 10)
                         break
                     elif computador_venceu:
                         print("=====" * 10)
                         print("\nO computador venceu!")
-                        imprimir_tabuleiro(campo_jogador)
                         print("=====" * 10)
                         break
-                        
+                
+
             case 3:
                 print("=====" * 10)
                 imprimir_tabuleiro(campo_computador)
@@ -216,5 +215,4 @@ while True:
     except ValueError:
         print("=====" * 10)
         print("Opção inválida!")
-
         print("=====" * 10)
