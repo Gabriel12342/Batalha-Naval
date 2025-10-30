@@ -1,11 +1,11 @@
 # Batalha-Naval
 
 COMO INICIAR/TERMINAR:
--> Para iniciar o jogo, é preciso ter python instalado na sua máquina para rodar no terminal;
--> Abra o terminal na pasta onde o arquivo do jogo está salvo.
--> Execute o arquivo principal com o comando: python batalha_naval.py
--> O jogo será iniciado diretamente no terminal.
--> Para encerrar o jogo, selecione a opção 0 - Sair no menu principal ou feche o terminal.
+* Para iniciar o jogo, é preciso ter python instalado na sua máquina para rodar no terminal;
+* Abra o terminal na pasta onde o arquivo do jogo está salvo.
+* Execute o arquivo principal com o comando: python batalha_naval.py
+* O jogo será iniciado diretamente no terminal.
+* Para encerrar o jogo, selecione a opção 0 - Sair no menu principal ou feche o terminal.
 
 OPÇÕES OFERECIDAS:
 Ao abrir o jogo, é apresentado um menu inicial com quatro opções (de 0 à 3) para se selecionar:
