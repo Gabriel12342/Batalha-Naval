@@ -20,7 +20,9 @@ Ao abrir o jogo, é apresentado um menu inicial com quatro opções (de 0 à 3) 
 - O computador também fará isso mas escolhendo as posições das embarcações do jogador de forma aleatória.
 - Tanto o computador quanto o jogador podem atacar em rodadas seguidas se acertar uma embarcação, mas passando a vez se errar ou acertar a mesma posição.
 
-3 - Mostrar tabuleiro do computador: se quiser visualizar o campo do computador antes de iniciar a partida antes ou depois de preencher o tabuleiro;
+3 - Mostrar tabuleiro do computador: para visualizar o campo do computador antes de iniciar a partida ou depois de preencher o tabuleiro;
+* Útil para visualizar o campo antes ou depois de posicionar as embarcações.
+* Serve também para acompanhar o progresso da partida.
   
 0 - Sair. Para sair do jogo.
 
