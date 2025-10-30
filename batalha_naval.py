@@ -51,7 +51,7 @@ def ataque_jogador(att_linha, att_coluna, tabuleiro_computador):
 
     elif tabuleiro_computador[att_linha][att_coluna] == "<->":
         print("=====" * 10)
-        print("Parabens! Acertou uma embarcação! Tente novamente!\n")
+        print("Parabéns! Acertou uma embarcação! Tente novamente!\n")
         tabuleiro_computador[att_linha][att_coluna] = "X"
         acerto_jogador = True
 
@@ -71,7 +71,7 @@ def ataque_computador(x, y, tabuleiro_jogador):
         acerto_computador = False
     elif tabuleiro_jogador[x][y] == "<->":
         print("=====" * 10)
-        print("Parabens! Computador Acertou uma embarcação! Tente novamente!\n")
+        print("Parabéns! Computador Acertou uma embarcação! Tente novamente!\n")
         tabuleiro_jogador[x][y] = "X"
         acerto_computador = True
     else:
@@ -186,7 +186,7 @@ while True:
 
                     if jogador_venceu:
                         print("=====" * 10)
-                        print("\nParabens! Você venceu!")
+                        print("\nParabéns! Você venceu!")
                         print("=====" * 10)
                         break
                     elif computador_venceu:
