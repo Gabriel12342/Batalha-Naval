@@ -9,14 +9,19 @@ COMO INICIAR/TERMINAR:
 
 OPÇÕES OFERECIDAS:
 Ao abrir o jogo, é apresentado um menu inicial com quatro opções para se selecionar:
-1 - Posicionar embarcações: onde o jogador vai preencher as posições cartesianas das embarcações para começar o jogo.
-- São cinco embarcações para o jogador e para o computador e o campo consiste em um espaço de 10x10, então o jogador deve escolher posição das linhas e colunas de 0-9.
-- O computador irá selecionar as posições das embarcações com números aleatórios de 0-9 pela funsão randint da biblioteca random;
+1 - Posicionar embarcações: 
+- O jogador preenche as posições cartesianas das suas embarcações (coordenadas de linha e coluna entre 0 e 9).
+- São cinco embarcações tanto para o jogador quanto para o computador.
+- O campo de batalha é um tabuleiro 10x10.
+- O computador posiciona suas embarcações automaticamente, escolhendo posições aleatórias com a função randint() da biblioteca random.
+
 2 - Atacar: para finalmente começar a batalha naval entre homem e maquina.
 - O jogador de escolher as posições cartesianas da linha e coluna onde se supõe que esteja as embarcações do computador;
 - O computador também fará isso mas escolhendo as posições das embarcações do jogador de forma aleatória.
-- Tanto o computador quanto o jogador podem atacar em rodadas seguidas se acertar uma embarcação, mas passando a vez se errar ou acertar a mesma posição. 
+- Tanto o computador quanto o jogador podem atacar em rodadas seguidas se acertar uma embarcação, mas passando a vez se errar ou acertar a mesma posição.
+
 3 - Mostrar tabuleiro do computador: se quiser visualizar o campo do computador antes de iniciar a partida antes ou depois de preencher o tabuleiro;
+  
 0 - Sair. Para sair do jogo.
 
 PRINCIPAIS TELAS:
