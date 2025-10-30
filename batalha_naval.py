@@ -117,14 +117,12 @@ while True:
                         try:
                             linha = int(input(f"Escreva a posição da linha (0-9) do barco {i+1}: "))
                             coluna = int(input(f"Escreva a posição da coluna (0-9) do barco {i+1}: "))
-
-                            # Verifica se está dentro dos limites do tabuleiro
+                            
                             if not (0 <= linha < 10 and 0 <= coluna < 10):
                                 print("Posição inválida! Escolha valores entre 0 e 9.\n")
                                 print("=====" * 10)
                                 continue
 
-                            # Verifica se já há um barco nessa posição
                             if (linha, coluna) in embarcasao:
                                 print("Já existe uma embarcação nessa posição! Escolha outra.\n")
                                 print("=====" * 10)
@@ -183,7 +181,6 @@ while True:
                         if not acerto_computador:
                             turno_jogador = True
 
-                    # verifica vitória
                     jogador_venceu = all("<->" not in linha for linha in campo_computador)
                     computador_venceu = all("<->" not in linha for linha in campo_jogador)
 
@@ -199,8 +196,7 @@ while True:
                         imprimir_tabuleiro(campo_jogador)
                         print("=====" * 10)
                         break
-                
-
+                        
             case 3:
                 print("=====" * 10)
                 imprimir_tabuleiro(campo_computador)
@@ -220,4 +216,5 @@ while True:
     except ValueError:
         print("=====" * 10)
         print("Opção inválida!")
+
         print("=====" * 10)
